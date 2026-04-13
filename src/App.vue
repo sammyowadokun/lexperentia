@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import Sidebar from './components/admin/Sidebar.vue'
+import Sidebar from './components/admin/SideBar.vue'
 import AppToast from './components/admin/AppToast.vue'
 import { computed } from 'vue'
 

@@ -1,0 +1,40 @@
+export const getCertificates = async () => {
+  return [
+    {
+      id: 1,
+      studentName: 'Samuel Owadokun',
+      studentEmail: 'samuel@example.com',
+      programme: 'Law Student Internship',
+      cohort: 'Cohort 3',
+      attendanceRate: 80,
+      paymentStatus: 'fully paid',
+      eligibilityStatus: 'eligible',
+      certificateStatus: 'pending',
+      verificationId: '',
+    },
+    {
+      id: 2,
+      studentName: 'Amaka Obi',
+      studentEmail: 'amaka@example.com',
+      programme: 'Young Lawyer Coaching',
+      cohort: 'Cohort 2',
+      attendanceRate: 55,
+      paymentStatus: 'partial',
+      eligibilityStatus: 'not eligible',
+      certificateStatus: 'not started',
+      verificationId: '',
+    },
+    {
+      id: 3,
+      studentName: 'David Musa',
+      studentEmail: 'david@example.com',
+      programme: 'Law Student Internship',
+      cohort: 'Cohort 1',
+      attendanceRate: 100,
+      paymentStatus: 'fully paid',
+      eligibilityStatus: 'eligible',
+      certificateStatus: 'issued',
+      verificationId: 'CERT-2026-0003',
+    },
+  ]
+}

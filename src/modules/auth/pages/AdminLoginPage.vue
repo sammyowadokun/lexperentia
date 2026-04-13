@@ -32,7 +32,7 @@ const handleLogin = () => {
       <div class="mb-6 text-center">
         <h1 class="text-2xl font-bold text-gray-900">Admin Login</h1>
         <p class="mt-2 text-sm text-gray-500">
-          Sign in to access the Super Admin dashboard
+          Sign in to the Super Admin dashboard
         </p>
       </div>
 

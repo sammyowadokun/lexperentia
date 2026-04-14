@@ -91,7 +91,7 @@ const goToCertificates = () => router.push('/admin/certificates')
     />
 
     <div class="rounded-2xl bg-linear-to-r from-indigo-100 to-purple-400 p-6 text-white shadow-md">
-      <h2 class="text-2xl font-bold text-indigo-700">Super Admin Control Center</h2>
+      <h2 class="text-2xl font-bold text-indigo-700">Admin Control Center</h2>
       <p class="mt-2 max-w-2xl text-sm text-slate-700">
         Track platform health, manage operations across cohorts, and respond quickly to payment,
         session, and learning activity.
